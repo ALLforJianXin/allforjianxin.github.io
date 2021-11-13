@@ -19,6 +19,10 @@ module.exports = [
     link: '/video/',
   },
   {
+    text: '考据',
+    link: '/research/',
+  },
+  {
     text: '撰稿人',
     link: '/authors/',
   },
