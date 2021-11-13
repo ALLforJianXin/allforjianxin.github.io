@@ -5,9 +5,9 @@ module.exports = [
     text: '文',
     link: '/post/',
     items: [
-      { text: '短篇', link: '/post/#短篇/' },
-      { text: '已完结', link: '/post/#已完结/' },
-      { text: '连载中', link: '/post/#连载中/' },
+      { text: '短篇', link: '/post/#短篇' },
+      { text: '已完结', link: '/post/#已完结' },
+      { text: '连载中', link: '/post/#连载中' },
     ],
   },
   {
