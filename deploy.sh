@@ -10,7 +10,7 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'jxpress.alloy.ink' > CNAME
+echo 'jx.alloy.ink' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
