@@ -10,16 +10,16 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'b.xugaoyi.com' > CNAME
+echo 'jxpress.alloy.ink' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:xugaoyi/vuepress-theme-vdoing.git
+  githubUrl=git@github.com:ALLforJianXin/allforjianxin.github.io.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
-  git config --global user.name "xugaoyi"
-  git config --global user.email "894072666@qq.com"
+  githubUrl=https://ALLforJianXin:${GITHUB_TOKEN}@github.com/ALLforJianXin/allforjianxin.github.io.git
+  git config --global user.name "ALLforJianXin"
+  git config --global user.email "allforjianxin@gmail.com"
 fi
 git init
 git add -A

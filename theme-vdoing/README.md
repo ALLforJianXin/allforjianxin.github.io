@@ -1,7 +1,4 @@
-# vuepress-theme-vdoing
+戬心同人站，致敬每个爱他们的你。
 
-vuepress-theme-vdoing for vuepress
 
-一个基于VuePress的 知识管理兼博客 主题。
-
-[More](https://github.com/xugaoyi/vuepress-theme-vdoing#readme).
+Theme by [Vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) | Copyright (c) 2019-present Evan Xu | [MIT License](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
