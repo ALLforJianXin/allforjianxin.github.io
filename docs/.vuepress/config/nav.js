@@ -23,10 +23,13 @@ module.exports = [
     link: '/research/',
   },
   {
-    text: '撰稿人',
-    link: '/authors/',
+    text: '其他',
+    items: [
+      { text: '团队', link: '/authors/', },
+      { text: '工作手册', link: '/workbook/', },
+      { text: '关于', link: '/about/' },
+    ]
   },
-  { text: '关于', link: '/about/' },
   {
     text: '索引',
     link: '/archives/',
