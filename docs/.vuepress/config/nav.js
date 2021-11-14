@@ -23,6 +23,14 @@ module.exports = [
     link: '/research/',
   },
   {
+    text: '推荐',
+    link: '/recommend/',
+    items: [
+      { text: '个人推荐', link: '/recommend/#个人推荐' },
+      { text: '编辑推荐', link: '/recommend/#编辑推荐' },
+    ],
+  },
+  {
     text: '其他',
     items: [
       { text: '团队', link: '/authors/', },
