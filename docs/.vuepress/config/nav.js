@@ -19,7 +19,7 @@ module.exports = [
     link: '/video/',
   },
   {
-    text: '考据',
+    text: '嗑学',
     link: '/research/',
   },
   {
