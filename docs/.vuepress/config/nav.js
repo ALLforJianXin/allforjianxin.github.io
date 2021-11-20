@@ -26,7 +26,7 @@ module.exports = [
     text: '推荐',
     link: '/recommend/',
     items: [
-      { text: '最近更新', link: '/recent/2021-11/' },
+      { text: '最近更新', link: '/recent/' },
       { text: '个人推荐', link: '/recommend/#个人推荐' },
       { text: '编辑推荐', link: '/recommend/#编辑推荐' },
     ],
