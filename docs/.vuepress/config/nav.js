@@ -22,6 +22,12 @@ module.exports = [
     text: '嗑学',
     link: '/research/',
   },
+  // {
+  //   text: '专栏',
+  //   items: [
+  //     { text: '我闻', link: '/iheard/' },
+  //   ],
+  // },
   {
     text: '推荐',
     link: '/recommend/',
