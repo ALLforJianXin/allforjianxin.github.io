@@ -1,5 +1,5 @@
 <!-- Ref: https://www.ivistang.com/articles/167/ -->
-<!-- 查aid、cid: https://www.bilibili.com/read/cv5245087-->
+<!-- 查aid、cid: https://www.bilibili.com/read/cv7923601-->
 <!-- docs/.vuepress/components/iframeComp.vue -->
 <template>
     <iframe class="video-iframe" width="100%" v-resize="{ log: true }" frameborder="no" scrolling="no" seamless="" allowfullscreen="allowfullscreen" :src="ihtml"></iframe>
