@@ -12,7 +12,7 @@ module.exports = [
   },
   {
     text: '画',
-    link: '/image/',
+    link: '/tags/?tag=画',
   },
   {
     text: '视频',
