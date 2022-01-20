@@ -5,9 +5,39 @@ module.exports = [
     text: '文',
     link: '/post/',
     items: [
-      { text: '短篇', link: '/post/#短篇' },
-      { text: '已完结', link: '/post/#已完结' },
-      { text: '连载中', link: '/post/#连载中' },
+      {
+        text: '连载中',
+        link: '/post/#连载中',
+        items: [
+          { text: '芙蓉绽', link: '/pages/32ac05/' },
+          { text: '无寄', link: '/pages/491055/' },
+          { text: '关山难越', link: '/pages/751f20/' },
+        ],
+      },
+      {
+        text: '短篇', link: '/post/#短篇',
+        items: [
+          { text: '2022', link: '/post/#2022' },
+          { text: '2021', link: '/post/#2021' },
+          { text: '2020', link: '/post/#2020' },
+          { text: '2019', link: '/post/#2019' },
+        ],
+      },
+      {
+        text: '已完结', link: '/post/#已完结',
+        items: [
+          { text: '潜龙勿用', link: '/pages/105ad6/' },
+          { text: '黑择明', link: '/pages/cc5dfb/' },
+          { text: '如昨', link: '/pages/760113/' },
+          { text: '聘狸奴', link: '/pages/628240/' },
+          { text: '长日为亘', link: '/pages/e8827c/' },
+          { text: '不见子都', link: '/pages/82bec3/' },
+          { text: '迷魂记', link: '/pages/3a464a/' },
+          { text: '其实是个纨绔', link: '/pages/b29276/' },
+          { text: '我执', link: '/pages/74fa18/' },
+          { text: '不老梦', link: '/pages/17c160/' },
+        ],
+      },
     ],
   },
   {
