@@ -53,7 +53,12 @@ module.exports = [
     link: '/research/',
     items: [
       { text: '糖渣合集', link: '/research/#糖渣合集' },
-      { text: '嗑学分析', link: '/research/#嗑学分析' },
+      {
+        text: '嗑学分析',
+        link: '/research/#嗑学分析', items: [
+          { text: '非主流戬心人', link: '/pages/a85947/' },
+        ],
+      },
       { text: '扩展考据', link: '/research/#扩展考据' },
     ],
   },
