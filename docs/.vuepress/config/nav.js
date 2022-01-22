@@ -42,7 +42,7 @@ module.exports = [
   },
   {
     text: '画',
-    link: '/tags/?tag=画',
+    link: '/image/',
   },
   {
     text: '视频',
