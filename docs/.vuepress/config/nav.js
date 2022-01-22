@@ -17,10 +17,10 @@ module.exports = [
       {
         text: '短篇', link: '/post/#短篇',
         items: [
-          { text: '2022', link: '/post/#2022' },
-          { text: '2021', link: '/post/#2021' },
-          { text: '2020', link: '/post/#2020' },
-          { text: '2019', link: '/post/#2019' },
+          { text: '2022', link: '/post/#短篇-2022' },
+          { text: '2021', link: '/post/#短篇-2021' },
+          { text: '2020', link: '/post/#短篇-2020' },
+          { text: '2019', link: '/post/#短篇-2019' },
         ],
       },
       {
