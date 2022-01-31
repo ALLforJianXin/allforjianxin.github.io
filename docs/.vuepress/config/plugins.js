@@ -78,25 +78,45 @@ module.exports = [
       hm: '0ac96a2a12ddd8164d711c19295b442e',
     },
   ],
+  // [
+  //   'vuepress-plugin-comment', // 评论
+  //   {
+  //     choosen: 'gitalk',
+  //     options: {
+  //       clientID: 'ad571ce52e8350332999',
+  //       clientSecret: 'a46a24ca633dce9725e7c5703e3d69353d6cc5d8',
+  //       repo: 'gitalk-comment', // GitHub 仓库
+  //       owner: 'ALLforJianXin', // GitHub仓库所有者
+  //       admin: ['ALLforJianXin'], // 对仓库有写权限的人
+  //       // distractionFreeMode: true,
+  //       pagerDirection: 'last', // 'first'正序 | 'last'倒序
+  //       id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
+  //       title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
+  //       labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
+  //       body:
+  //         '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
+  //     },
+  //   },
+  // ],
   [
     'vuepress-plugin-comment', // 评论
     {
-      choosen: 'gitalk',
+      // 具体参数请看官网：https://valine.js.org/
+      choosen: 'valine',
+      // options 选项中的所有参数，会传给 Valine 的配置
       options: {
-        clientID: 'ad571ce52e8350332999',
-        clientSecret: 'a46a24ca633dce9725e7c5703e3d69353d6cc5d8',
-        repo: 'gitalk-comment', // GitHub 仓库
-        owner: 'ALLforJianXin', // GitHub仓库所有者
-        admin: ['ALLforJianXin'], // 对仓库有写权限的人
-        // distractionFreeMode: true,
-        pagerDirection: 'last', // 'first'正序 | 'last'倒序
-        id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
-        title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
-        labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
-        body:
-          '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
-      },
-    },
+        el: '#valine-vuepress-comment',
+        appId: 'K9WhYbRoMssatveHE1HWSyOT-gzGzoHsz',
+        appKey: 'XkMCm3pFLMbhpUJg9gUfojdr',
+        placeholder: '请留下你的足迹 ~~',
+        // 有 URL、''、mp、identicon、monsterid、wavatar、retro、robohash、hide 头像选择，具体头像是什么样子，请访问 https://valine.js.org/avatar.html
+        avatar: 'mp',	// 默认头像
+        pageSize: 30,   // 评论列表分页，每页条数
+        visitor: true,    // 文章访问量统计
+        recordIP: false,   // 是否记录评论者 IP
+        enableQQ: false,   // 是否启用昵称框自动获取 QQ 昵称和 QQ 头像, 默认关闭
+      }
+    }
   ],
   [
     '@vuepress/last-updated', // "上次更新"时间格式
@@ -107,21 +127,21 @@ module.exports = [
       },
     },
   ],
-  // [
-  //   'fulltext-search',
-  //   {
-  //     tokenize: 'full',
-  //     split: /\s+/,
-  //     encode: 'icase',
-  //   },
-  // ], // 全文搜索（有问题会搜出多的）
+  [
+    'fulltext-search',
+    {
+      tokenize: 'full',
+      split: /\s+/,
+      encode: 'icase',
+    },
+  ], // 全文搜索（有问题会搜出多的）
   [
     'cursor-effects',
     {
-       size: 2, // size of the particle, default: 2
+      size: 2, // size of the particle, default: 2
       //  shape: ['star' | 'circle'], // shape of the particle, default: 'star'
-       shape: ['star'], // shape of the particle, default: 'star'
-       zIndex: 999999999, // z-index property of the canvas, default: 999999999
+      shape: ['star'], // shape of the particle, default: 'star'
+      zIndex: 999999999, // z-index property of the canvas, default: 999999999
     },
- ],
+  ],
 ]
