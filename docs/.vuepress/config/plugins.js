@@ -107,7 +107,14 @@ module.exports = [
       },
     },
   ],
-  // ['fulltext-search'], // 全文搜索（有问题会搜出多的）
+  // [
+  //   'fulltext-search',
+  //   {
+  //     tokenize: 'full',
+  //     split: /\s+/,
+  //     encode: 'icase',
+  //   },
+  // ], // 全文搜索（有问题会搜出多的）
   [
     'cursor-effects',
     {
