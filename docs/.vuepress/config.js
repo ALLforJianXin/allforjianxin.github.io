@@ -16,6 +16,4 @@ module.exports = {
   head,
   plugins,
   themeConfig,
-
-  // plugins: ['fulltext-search'], // 全文搜索（有问题会搜出多的）
 }
