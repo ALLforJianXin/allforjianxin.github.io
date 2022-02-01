@@ -80,7 +80,6 @@ module.exports = {
     copyrightInfo:
       'JXPress', // 博客版权信息，支持a标签
   },
-  // htmlModules, // 插入hmtl(广告)模块
   // 站点配置（首页 & 文章页）
   blogInfo: {
     blogCreate: '2021-11-13', // 博客创建时间
@@ -96,4 +95,15 @@ module.exports = {
     pageIteration: 5000,    // 如果文章页获取访问量失败，则每隔多少时间后获取一次访问量，直到获取成功或获取 10 次后。默认 3 秒。注意：设置时间太低，可能导致访问量 + 2、+ 3 ......
     // 说明：成功获取一次访问量，访问量 + 1，所以第一次获取失败后，设置的每个隔段重新获取时间，将会影响访问量的次数。如 100 可能每次获取访问量 + 3
   },
+  // 私密文章配置
+  privatePage: {
+    username: 'vdoing',    // 用户名
+    password: '123456',    // 密码
+    expire: 1000 * 60 * 60 * 24,   // 有效时间：毫秒(ms)。过期后访问私密文章重新输入用户名和密码。默认一天
+    loginPath: "/vdoing/login/",    // 引用登录组件的 md 文章中 frontmatter 的 permalink。（必须），建议支持 /vdoing/login/，无默认值
+    loginKey: 'vdoing_login',    // 存储用户名信息的 key，默认是 vdoing_login。系统通过该 key 验证是否登录、是否过期。（请不要与任意文章中 frontmatter 的 title 冲突）
+    loginSession: false,     // 是否开启在文章页面关闭或刷新后，清除登录状态。这样再次访问任何私密文章，都需要重新验证登录，默认为 false（不开启）
+  },
+
+  // htmlModules, // 插入hmtl(广告)模块
 }
