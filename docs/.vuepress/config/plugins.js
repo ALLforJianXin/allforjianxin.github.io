@@ -113,7 +113,7 @@ module.exports = [
         avatar: 'mp',	// 默认头像
         pageSize: 30,   // 评论列表分页，每页条数
         visitor: false,    // 文章访问量统计
-        recordIP: false,   // 是否记录评论者 IP
+        recordIP: true,   // 是否记录评论者 IP
         enableQQ: false,   // 是否启用昵称框自动获取 QQ 昵称和 QQ 头像, 默认关闭
         meta: ['nick'], //仅要求昵称
         requiredFields: ['nick'], //仅要求昵称
