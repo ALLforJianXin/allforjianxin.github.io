@@ -13,6 +13,9 @@ export default ({
    */
   if (!isServer) {
     router.beforeEach((to, from, next) => {
+      /**
+       * 私密文章模块
+       */
       siteData.pages.forEach((item) => {
         if (item.path == to.path) {
           if (item.frontmatter.private && item.frontmatter.private == true && siteData.themeConfig.privatePage) {
@@ -21,7 +24,7 @@ export default ({
               expire = 86400000;  // 一天
             }
             if (!loginKey) {
-              loginKey = 'vdoing_login';
+              loginKey = 'jxpress_login';
             }
             // 网站关闭或者刷新后，清除登录状态（不针对单个私密文章）
             if (loginSession) {
