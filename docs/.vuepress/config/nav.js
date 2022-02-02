@@ -10,7 +10,6 @@ module.exports = [
         link: '/post/#连载中',
         items: [
           { text: '芙蓉绽', link: '/pages/32ac05/' },
-          { text: '无寄', link: '/pages/491055/' },
           { text: '关山难越', link: '/pages/751f20/' },
         ],
       },
@@ -26,6 +25,7 @@ module.exports = [
       {
         text: '已完结', link: '/post/#已完结',
         items: [
+          { text: '无寄', link: '/pages/491055/' },
           { text: '潜龙勿用', link: '/pages/105ad6/' },
           { text: '黑择明', link: '/pages/cc5dfb/' },
           { text: '如昨', link: '/pages/760113/' },
