@@ -58,12 +58,13 @@ module.exports = [
       { text: '扩展考据', link: '/research/#扩展考据' },
     ],
   },
-  // {
-  //   text: '专栏',
-  //   items: [
-  //     { text: '我闻', link: '/iheard/' },
-  //   ],
-  // },
+  {
+    text: '专栏',
+    items: [
+      // { text: '我闻', link: '/iheard/' },
+      { text: '戬心双情人节48h', link: '/202202/48h/' },
+    ],
+  },
   {
     text: '推荐',
     link: '/recommend/',
