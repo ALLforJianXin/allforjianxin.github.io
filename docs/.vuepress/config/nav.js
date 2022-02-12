@@ -61,7 +61,7 @@ module.exports = [
   {
     text: '专栏',
     items: [
-      // { text: '我闻', link: '/iheard/' },
+      { text: '我闻', link: '/iheard/' },
       { text: '戬心双情人节48h', link: '/202202/48h/' },
     ],
   },
