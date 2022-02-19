@@ -9,7 +9,7 @@ module.exports = [
       content: '戬心,宝莲灯前传,宝莲灯,杨戬,敖寸心',
     },
   ],
-  // ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
+  ['meta', { name: 'baidu-site-verification', content: 'code-WjLCCFHZ0y' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#e89083' }], // 移动浏览器主题颜色
   // [
   //   'script',
