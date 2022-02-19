@@ -11,6 +11,10 @@ module.exports = [
   ],
   ['meta', { name: 'baidu-site-verification', content: 'code-WjLCCFHZ0y' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#e89083' }], // 移动浏览器主题颜色
+  ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
+  ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }], // 阿里在线图标
+  ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3129839_xft6cqs5gc.css' }], // 阿里在线图标
+  ['noscript', {}, '<meta http-equiv="refresh" content="0; url=https://cho.alloy.ink/"><style>.theme-vdoing-content { display:none }']
   // [
   //   'script',
   //   {
