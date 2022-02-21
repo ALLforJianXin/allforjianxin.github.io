@@ -31,10 +31,10 @@ module.exports = [
         //   title: '在Bing中搜索',
         //   frontUrl: 'https://cn.bing.com/search?q=',
         // },
-        {
-          title: '通过百度搜索本站的',
-          frontUrl: 'https://www.baidu.com/s?wd=site%3Ajx.alloy.ink%20',
-        },
+        // {
+        //   title: '通过百度搜索本站的',
+        //   frontUrl: 'https://www.baidu.com/s?wd=site%3Ajx.alloy.ink%20',
+        // },
       ],
     },
   ],
