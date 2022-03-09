@@ -109,6 +109,7 @@ module.exports = [
         appId: 'K9WhYbRoMssatveHE1HWSyOT-gzGzoHsz',
         appKey: 'XkMCm3pFLMbhpUJg9gUfojdr',
         placeholder: '请留下你的足迹 ~~',
+        path: '<%- frontmatter.permalink %>',
         // 有 URL、''、mp、identicon、monsterid、wavatar、retro、robohash、hide 头像选择，具体头像是什么样子，请访问 https://valine.js.org/avatar.html
         avatar: 'mp',	// 默认头像
         pageSize: 30,   // 评论列表分页，每页条数
