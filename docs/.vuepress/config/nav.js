@@ -11,6 +11,7 @@ module.exports = [
         items: [
           { text: '君生早', link: '/pages/87292c/' },
           { text: '芙蓉绽', link: '/pages/32ac05/' },
+          { text: '一家五口', link: '/pages/872e13/' },
           { text: '关山难越', link: '/pages/751f20/' },
         ],
       },
@@ -21,6 +22,7 @@ module.exports = [
           { text: '2021', link: '/post/#短篇-2021' },
           { text: '2020', link: '/post/#短篇-2020' },
           { text: '2019', link: '/post/#短篇-2019' },
+          { text: '2018', link: '/post/#短篇-2018' },
         ],
       },
       {
