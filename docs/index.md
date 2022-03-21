@@ -3,7 +3,7 @@ home: true
 # heroImage: /img/web.png
 heroText: 戬心同人站
 tagline: 致敬每个爱他们的你。
-actionText: 进站必读 →
+actionText: 【本站内容🚫禁止无授权转载】进站必读 →
 actionLink: /about/
 bannerBg: '/img/bg.jpeg' # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
