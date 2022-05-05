@@ -72,12 +72,12 @@ module.exports = [
       },
     },
   ],
-  [
-    'vuepress-plugin-baidu-tongji', // 百度统计
-    {
-      hm: '0ac96a2a12ddd8164d711c19295b442e',
-    },
-  ],
+  // [
+  //   'vuepress-plugin-baidu-tongji', // 百度统计
+  //   {
+  //     hm: '0ac96a2a12ddd8164d711c19295b442e',
+  //   },
+  // ],
   // [
   //   'vuepress-plugin-comment', // 评论
   //   {

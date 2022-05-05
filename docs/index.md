@@ -13,6 +13,6 @@ bannerBg: '/img/bg.jpeg' # auto => 网格纹背景(有bodyBgImg时无背景)，�
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 ---
 
-<ClientOnly>
-  <WebInfo/>
-</ClientOnly>
+<!-- <ClientOnly> -->
+  <!-- <WebInfo/> -->
+<!-- </ClientOnly> -->
