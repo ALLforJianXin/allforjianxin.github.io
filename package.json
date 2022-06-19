@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "busuanzi.pure.js": "^1.0.3",
+    "vue-carousel": "^0.18.0",
     "vuepress-plugin-comment": "^0.7.3"
   }
 }
