@@ -10,8 +10,8 @@ module.exports = [
         link: '/post/#连载中',
         items: [
           { text: '空余恨', link: '/pages/cf791e/' },
-          { text: 'Lockdown', link: '/pages/e452af/' },
           { text: '护花使者', link: '/pages/a7c93f/' },
+          { text: 'Lockdown', link: '/pages/e452af/' },
           { text: '娇养', link: '/pages/2dcdc0/' },
           { text: '君生早', link: '/pages/87292c/' },
           { text: '芙蓉绽', link: '/pages/32ac05/' },
@@ -42,6 +42,7 @@ module.exports = [
           { text: '迷魂记', link: '/pages/3a464a/' },
           { text: '其实是个纨绔', link: '/pages/b29276/' },
           { text: '我执', link: '/pages/74fa18/' },
+          { text: '情似丁香结，难展一寸心', link: '/pages/dd826c/' },
           { text: '不老梦', link: '/pages/17c160/' },
         ],
       },
