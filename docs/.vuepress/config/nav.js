@@ -9,6 +9,7 @@ module.exports = [
         text: '连载中',
         link: '/post/#连载中',
         items: [
+          { text: 'Healing', link: '/pages/e5428d/' },
           { text: '空余恨', link: '/pages/cf791e/' },
           { text: '护花使者', link: '/pages/a7c93f/' },
           { text: 'Lockdown', link: '/pages/e452af/' },
