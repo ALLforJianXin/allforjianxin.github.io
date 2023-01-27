@@ -3,7 +3,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 # 增加编译用内存大小
-set NODE_OPTIONS="--max-old-space-size=8192"
+set NODE_OPTIONS="--max-old-space-size=16384"
 
 # 生成静态文件
 npm run build
