@@ -14,7 +14,13 @@ module.exports = [
   ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
   ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }], // 阿里在线图标
   ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3129839_xft6cqs5gc.css' }], // 阿里在线图标
-  ['noscript', {}, '<meta http-equiv="refresh" content="0; url=https://cho.alloy.ink/"><style>.theme-vdoing-content { display:none }']
+  ['noscript', {}, '<meta http-equiv="refresh" content="0; url=https://cho.alloy.ink/"><style>.theme-vdoing-content { display:none }'],
+  // WebApp图标
+  ['link', { rel: 'apple-touch-icon', sizes:"76x76", href: '/img/apple-touch-icon/apple-touch-icon-76x76.png' }], 
+  ['link', { rel: 'apple-touch-icon', sizes:"120x120", href: '/img/apple-touch-icon/apple-touch-icon-120x120.png' }], 
+  ['link', { rel: 'apple-touch-icon', sizes:"152x152", href: '/img/apple-touch-icon/apple-touch-icon-152x152.png' }], 
+  ['link', { rel: 'apple-touch-icon', sizes:"180x180", href: '/img/apple-touch-icon/apple-touch-icon-180x180.png' }],
+  ['link', { rel: 'apple-touch-icon', sizes:"58x58", href: '/img/apple-touch-icon/android-touch-icon.png' }], 
   // [
   //   'script',
   //   {
