@@ -3,11 +3,11 @@ module.exports = [
   { text: '首页', link: '/' },
   {
     text: '文',
-    link: '/post/',
+    link: '/serialize/',
     items: [
       {
         text: '连载中',
-        link: '/post/#连载中',
+        link: '/serialize/',
         items: [
           { text: '神父魅魔pa', link: '/healing/' },
           { text: '空余恨', link: '/pages/cf791e/' },
@@ -21,17 +21,18 @@ module.exports = [
         ],
       },
       {
-        text: '短篇', link: '/post/#短篇',
+        text: '短篇', link: '/2023/',
         items: [
-          { text: '2022', link: '/post/#短篇-2022' },
-          { text: '2021', link: '/post/#短篇-2021' },
-          { text: '2020', link: '/post/#短篇-2020' },
-          { text: '2019', link: '/post/#短篇-2019' },
-          { text: '2018', link: '/post/#短篇-2018' },
+          { text: '2023', link: '/2023/' },
+          { text: '2022', link: '/2022/' },
+          { text: '2021', link: '/2021/' },
+          { text: '2020', link: '/2020/' },
+          { text: '2019', link: '/2019/' },
+          { text: '2018', link: '/2018/' },
         ],
       },
       {
-        text: '已完结', link: '/post/#已完结',
+        text: '已完结', link: '/finished/',
         items: [
           { text: '无寄', link: '/pages/491055/' },
           { text: '潜龙勿用', link: '/pages/105ad6/' },
