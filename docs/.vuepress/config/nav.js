@@ -72,6 +72,7 @@ module.exports = [
   {
     text: '专栏',
     items: [
+      { text: '2024·戬心·甲辰龙年·年夜饭', link: '/2024/nian/' },
       { text: '2023·戬心陪你过大年', link: '/2023/nian/' },
       { text: '《西幻pa》', link: '/healing/' },
       { text: '《我闻》', link: '/iheard/' },
