@@ -18,12 +18,13 @@ module.exports = [
           { text: '芙蓉绽', link: '/pages/32ac05/' },
           { text: '一家五口', link: '/pages/872e13/' },
           { text: '关山难越', link: '/pages/751f20/' },
-          { text: '鲛绡透', link: '/pages/de880c/' },
+          { text: '神仙眷侣', link: '/pages/495f6d/' },
         ],
       },
       {
-        text: '短篇', link: '/2024/',
+        text: '短篇', link: '/2025/',
         items: [
+          { text: '2025', link: '/2025/' },
           { text: '2024', link: '/2024/' },
           { text: '2023', link: '/2023/' },
           { text: '2022', link: '/2022/' },
@@ -36,6 +37,9 @@ module.exports = [
       {
         text: '已完结', link: '/finished/',
         items: [
+          { text: '众目睽睽', link: '/pages/34b014/' },
+          { text: '鲛绡透', link: '/pages/de880c/' },
+          { text: '神话戬x神话心 大杨x大寸', link: '/pages/1a9a65/' },
           { text: '无寄', link: '/pages/491055/' },
           { text: '潜龙勿用', link: '/pages/105ad6/' },
           { text: '黑择明', link: '/pages/cc5dfb/' },
@@ -46,8 +50,6 @@ module.exports = [
           { text: '迷魂记', link: '/pages/3a464a/' },
           { text: '其实是个纨绔', link: '/pages/b29276/' },
           { text: '我执', link: '/pages/74fa18/' },
-          { text: '情似丁香结，难展一寸心', link: '/pages/dd826c/' },
-          { text: '不老梦', link: '/pages/17c160/' },
         ],
       },
     ],
@@ -73,6 +75,7 @@ module.exports = [
   {
     text: '专栏',
     items: [
+      { text: '2025·四季轮转 福乐常安', link: '/2025/nian/' },
       { text: '2024·戬心·甲辰龙年·年夜饭', link: '/2024/nian/' },
       { text: '2023·戬心陪你过大年', link: '/2023/nian/' },
       { text: '《西幻pa》', link: '/healing/' },
