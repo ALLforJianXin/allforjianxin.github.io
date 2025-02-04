@@ -18,6 +18,7 @@ module.exports = [
           { text: '芙蓉绽', link: '/pages/32ac05/' },
           { text: '一家五口', link: '/pages/872e13/' },
           { text: '关山难越', link: '/pages/751f20/' },
+          { text: '信', link: '/pages/c77c64/' },
           { text: '烦', link: '/pages/36fc32/' },
           { text: '神仙眷侣', link: '/pages/495f6d/' },
         ],
