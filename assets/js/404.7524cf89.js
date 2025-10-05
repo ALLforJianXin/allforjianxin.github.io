@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[404],{768:function(t,n,s){"use strict";s.r(n);var i=s(4),e=Object(i.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("p",[t("img",{attrs:{src:"/img/bingzhenqishui/1.png",alt:"1"}})])])}),[],!1,null,null,null);n.default=e.exports}}]);
