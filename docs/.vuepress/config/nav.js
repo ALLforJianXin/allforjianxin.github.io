@@ -52,6 +52,8 @@ module.exports = [
           { text: '迷魂记', link: '/pages/3a464a/' },
           { text: '其实是个纨绔', link: '/pages/b29276/' },
           { text: '我执', link: '/pages/74fa18/' },
+          { text: '不老梦', link: '/pages/17c160/' },
+          { text: '昨夜西风', link: '/pages/b54dfb/' },
         ],
       },
     ],
