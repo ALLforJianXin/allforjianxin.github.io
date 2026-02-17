@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[398],{768:function(t,s,n){"use strict";n.r(s);var e=n(5),r=Object(e.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("p",[t("img",{attrs:{src:"/img/shenyanshi/220731-1.jpg",alt:"220731-1"}})])])}),[],!1,null,null,null);s.default=r.exports}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[393],{762:function(t,n,s){"use strict";s.r(n);var i=s(5),e=Object(i.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("p",[t("img",{attrs:{src:"/img/bingzhenqishui/2022.2.1.0.jpg",alt:"2022.2.1.0"}})])])}),[],!1,null,null,null);n.default=e.exports}}]);
