@@ -81,6 +81,7 @@ module.exports = [
   {
     text: '专栏',
     items: [
+      { text: '2026·戬心新春12h', link: '/2026/nian/' },
       { text: '2025·四季轮转 福乐常安', link: '/2025/nian/' },
       { text: '2024·戬心·甲辰龙年·年夜饭', link: '/2024/nian/' },
       { text: '2023·戬心陪你过大年', link: '/2023/nian/' },
